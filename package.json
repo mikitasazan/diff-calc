@@ -1,0 +1,40 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/mikitasazan/diff-calc/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mikitasazan/diff-calc/actions)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "lint": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikitasazan/diff-calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikitasazan/diff-calc/issues"
+  },
+  "homepage": "https://github.com/mikitasazan/diff-calc#readme",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/eslint-parser": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@jest/globals": "^30.0.4",
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "jest": "^30.0.4"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  }
+}
