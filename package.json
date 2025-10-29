@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/mikitasazan/diff-calc/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mikitasazan/diff-calc/actions)",
+  "description": "[![Actions Status](https://github.com/mikitasazan/gen-diff/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mikitasazan/gen-diff/actions)",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikitasazan/diff-calc.git"
+    "url": "git+https://github.com/mikitasazan/gen-diff.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mikitasazan/diff-calc/issues"
+    "url": "https://github.com/mikitasazan/gen-diff/issues"
   },
-  "homepage": "https://github.com/mikitasazan/diff-calc#readme",
+  "homepage": "https://github.com/mikitasazan/gen-diff#readme",
   "dependencies": {
     "commander": "^11.1.0",
     "js-yaml": "^4.1.0",
